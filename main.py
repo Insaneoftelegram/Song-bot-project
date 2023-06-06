@@ -17,7 +17,9 @@ INSANE = Client(
 )
 
 START_BUTTONS =[[
-    InlineKeyboardButton("ADD ME YOUR GROUP", url="https://t.me/Resso_offical_bot?startgroup=true"),
+    InlineKeyboardButton("ADD ME YOUR GROUP", url="https://t.me/Resso_offical_bot?startgroup=true")
+    ]]
+START_BUTTONS =[[
     InlineKeyboardButton("Owner", url="t.me/insane_of_telegram"),
     InlineKeyboardButton("Source", url="t.me/insanex3")
     ]]
