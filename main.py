@@ -15,11 +15,8 @@ INSANE = Client(
 
 @INSANE.on_message(filters.command("start"))
 async def start_cmd(Client, message):
-    await message.reply_text("Devuzz ❤️ Akhin.")
+    await message.reply_text("Hey {mention}.")
   
-@INSANE.on_message(filters.command("devu"))
-async def devu_cmd(client, message):
-    await message.reply_text("Name devu                            From kerala                     Husband akhin")
                               
                               
                             
