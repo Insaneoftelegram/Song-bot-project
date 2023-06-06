@@ -32,10 +32,15 @@ async def start_cmd(Client, message):
   
     )
     
+INSANE_BUTTON =[[
+    InlineKeyboardButton("Owner", url="https://t.me/insanex3")
+    ]]
+    
 @INSANE.on_message(filters.command("owner"))
 async def owner_cmd(client, message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/53d511c7d79e58225b7dc.jpg"
+        photo="https://telegra.ph/file/a42e0a1e09e4ca442fe3b.jpg"
+        reply_markup =InlineKeyboardMarkup (INSANE_BUTTONS)
     )
 
 
