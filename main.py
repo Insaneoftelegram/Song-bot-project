@@ -39,7 +39,7 @@ INSANE_BUTTON =[[
 @INSANE.on_message(filters.command("owner"))
 async def owner_cmd(client, message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/a42e0a1e09e4ca442fe3b.jpg"
+        photo="https://telegra.ph/file/a42e0a1e09e4ca442fe3b.jpg",
         reply_markup =InlineKeyboardMarkup (INSANE_BUTTONS)
     )
 
