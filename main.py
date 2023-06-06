@@ -32,7 +32,7 @@ async def start_cmd(Client, message):
   
     )
     
-INSANE_BUTTON =[[
+INSANE_BUTTONS =[[
     InlineKeyboardButton("Owner", url="https://t.me/insanex3")
     ]]
     
