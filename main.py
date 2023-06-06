@@ -31,6 +31,14 @@ async def start_cmd(Client, message):
         reply_markup =InlineKeyboardMarkup (START_BUTTONS)
   
     )
+    
+@INSANE.on_message(filters.command("owner"))
+async def owner_cmd(client, message):
+    await message.reply_photo(
+        photo="https://telegra.ph/file/53d511c7d79e58225b7dc.jpg"
+    )
+
+
                               
                               
                             
