@@ -14,6 +14,6 @@ INSANE = Client(
 )
 
  
-print("Bot started ")
+print("INSANE Bot started ")
 INSANE.run()
 
