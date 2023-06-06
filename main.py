@@ -1,6 +1,11 @@
 from pyrogram import Client, filters
 
 
+import youtube_dl
+from youtube_search import YoutubeSearch
+import requests
+
+
 API_ID = "5642193"
 API_HASH = "c28fc9ac88530587236175da89184d75"
 BOT_TOKEN = "6297344590:AAFbBHK9PioaIS0sZnH0jR4a4Sp7859Rt_4"
