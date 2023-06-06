@@ -19,9 +19,9 @@ async def start_cmd(Client, message):
   
 @INSANE.on_message(filters.command("devu"))
 async def devu_cmd(client, message):
-    await message.reply_text ( "Name devu
-                              From kerala 
-                              hus akhin")
+    await message.reply_text("Name devu                            From kerala                     Husband akhin")
+                              
+                              
                             
  
 print("INSANE Bot started ")
