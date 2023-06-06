@@ -17,6 +17,7 @@ INSANE = Client(
 @INSANE.on_message(filters.command("start")
 async def start_cmd(Client, message):
     await message.reply_text("Hello......!!!")
+)
  
 
 
