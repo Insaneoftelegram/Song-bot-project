@@ -13,6 +13,10 @@ INSANE = Client(
     bot_token=BOT_TOKEN
 )
 
+@INSANE.on_message(filters.command("start"))
+async def start_cmd(Client, message):
+   print("INSANE BOT STARTED ")
+await message.reply_text("Hello....!!")
  
 print("INSANE Bot started ")
 INSANE.run()
