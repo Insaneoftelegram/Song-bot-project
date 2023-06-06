@@ -17,10 +17,10 @@ INSANE = Client(
 )
 
 START_BUTTONS =[[
-    InlineKeyboardButton("ADD ME YOUR GROUP", url="https://t.me/Resso_offical_bot?startgroup=true")
+    InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/Resso_offical_bot?startgroup=true")
     ],[
-    InlineKeyboardButton("Owner", url="t.me/insane_of_telegram"),
-    InlineKeyboardButton("Source", url="t.me/INSANEX3")
+    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="t.me/INSANEX3"),
+    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/INSANEX3_SUPPORT")
     ]]
 
 @INSANE.on_message(filters.command("start"))
