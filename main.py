@@ -17,7 +17,7 @@ INSANE = Client(
 )
 
 START_BUTTONS =[[
-    InlineKeyboardButton ("ADD ME YOUR GROUP",url="t.me/insanex3 ")
+    InlineKeyboardButton ("ADD ME YOUR GROUP",url = "t.me/insanex3 ")
     ]]
 
 @INSANE.on_message(filters.command("start"))
