@@ -26,7 +26,7 @@ START_BUTTONS =[[
 @INSANE.on_message(filters.command("start"))
 async def start_cmd(Client, message):
     await message.reply_text(
-        text="hello",
+        text="ʜᴇʏ , 🖤\nᴛʜɪs ɪs Resso 🥀 \nᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.",
         reply_markup =InlineKeyboardMarkup (START_BUTTONS)
     )
                               
