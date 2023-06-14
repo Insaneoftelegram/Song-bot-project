@@ -1,2 +1,11 @@
 tgcrypto
 pyrogram
+python3
+pipenv
+spotipy
+requests
+youtube-dl
+ffmpeg
+python-magic-bin
+google-api-python-client
+eyed3
