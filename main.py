@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API_ID = "5642193"
 API_HASH = "c28fc9ac88530587236175da89184d75"
-BOT_TOKEN = "6088570842:AAEP-Stzkhzj53aijcDOeDbhs-hZo9qjeLU"
+BOT_TOKEN = "5208962076:AAFRivp9NqIABXvc0m8FI7PFxtaViYQeyeM"
 
 
 INSANE = Client(
