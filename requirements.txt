@@ -7,3 +7,5 @@ spotipy
 youtube_dl
 youtube_search
 python-telegram-bot
+logging
+os
