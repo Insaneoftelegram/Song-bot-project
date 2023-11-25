@@ -10,3 +10,4 @@ python-telegram-bot
 logging
 os
 telebot
+types
