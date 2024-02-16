@@ -11,3 +11,7 @@ logging
 os
 telebot
 types
+moviepy.editor
+discord.ext
+commands
+discord
